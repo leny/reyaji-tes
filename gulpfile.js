@@ -28,6 +28,10 @@ gulp.task( "react", function() {
         .pipe( gulp.dest( "./js" ) );
 } )
 
+gulp.task( "work", function() {
+    gulp.watch( "src/**/*.js", [ "react" ] );
+} )
+
 // default task
 
 gulp.task( "default", [ "react" ] );
