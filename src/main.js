@@ -9,9 +9,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import HelloWorld from "./components/hello-world";
+import ProgressiveImage from "./components/progressive-image";
 
 ReactDOM.render(
-    <HelloWorld />,
+    <ProgressiveImage sd="http://api.adorable.io/avatars/50/skitty" hd="http://api.adorable.io/avatars/285/skitty" width="285" height="285" alt="An avatar" title="It's me, leny!" className="test" />,
     document.querySelector( ".container" )
 );
